@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GymAccessActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Gym Access"
+        android:textSize="24sp" />
+
+    <!-- Sensor Data Display -->
+    <TextView
+        android:id="@+id/sensorDataDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Sensor Data: "
+        android:textSize="18sp" />
+
+    <!-- Re-authentication Button -->
+    <Button
+        android:id="@+id/reAuthButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sensorDataDisplay"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Re-authenticate"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
